@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleXML", "SimpleXML\SimpleXML.csproj", "{42DAC68D-1237-4456-9153-D95697FA9A01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeXML", "ChangeXML\ChangeXML.csproj", "{CE6C6DFA-8594-49BA-92B0-030C4EFAA195}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeXML", "ChangeXML\ChangeXML.csproj", "{CE6C6DFA-8594-49BA-92B0-030C4EFAA195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queryselector", "Queryselector\Queryselector.csproj", "{FD2EA265-BAFE-4B25-BC0B-B5E6DA690D51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CE6C6DFA-8594-49BA-92B0-030C4EFAA195}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE6C6DFA-8594-49BA-92B0-030C4EFAA195}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE6C6DFA-8594-49BA-92B0-030C4EFAA195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD2EA265-BAFE-4B25-BC0B-B5E6DA690D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2EA265-BAFE-4B25-BC0B-B5E6DA690D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2EA265-BAFE-4B25-BC0B-B5E6DA690D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2EA265-BAFE-4B25-BC0B-B5E6DA690D51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
