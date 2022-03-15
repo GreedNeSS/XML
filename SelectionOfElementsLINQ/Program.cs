@@ -22,11 +22,11 @@ namespace SelectionOfElementsLINQ
         {
             Console.WriteLine("\n=> ShowXML():");
 
-            XElement? root = xDoc.Element("people");
+            var root = xDoc.Element("people");
 
             if (root is not null)
             {
-                foreach (XElement person in root.Elements())
+                foreach (var person in root.Elements())
                 {
                     string name = person.Attribute("name")?.Value;
                     string age = person.Element("age")?.Value;
@@ -43,17 +43,17 @@ namespace SelectionOfElementsLINQ
         {
             Console.WriteLine("\n=> ParseToAnonClass():");
 
-            XElement? root = xDoc.Element("people");
+            var root = xDoc.Element("people");
 
             if (root is not null)
             {
                 var people = root.Elements()
-                    .Where(p => int.Parse(p.Element("age").Value) > 28)
+                    .Where(p => int.Parse(p.Element("age")?.Value) > 28)
                     .Select(p => new
                     {
                         Name = p.Attribute("name")?.Value,
                         Age = p.Element("age")?.Value,
-                        Company = p.Element("company").Value
+                        Company = p.Element("company")?.Value
                     });
 
                 foreach (var person in people)
@@ -67,18 +67,18 @@ namespace SelectionOfElementsLINQ
         {
             Console.WriteLine("\n=> ParseToAnonClass():");
 
-            XElement? root = xDoc.Element("people");
+            var root = xDoc.Element("people");
 
             if (root is not null)
             {
                 var people = root.Elements()
-                    .Where(p => p.Element("company").Value == "Microsoft"
-                    || p.Element("company").Value == "Yandex")
+                    .Where(p => p.Element("company")?.Value == "Microsoft"
+                    || p.Element("company")?.Value == "Yandex")
                     .Select(p => new Person
                     {
                         Name = p.Attribute("name")?.Value,
                         Age = int.Parse(p.Element("age")?.Value),
-                        Company = p.Element("company").Value
+                        Company = p.Element("company")?.Value
                     });
 
                 foreach (var person in people)
