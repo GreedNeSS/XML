@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQToXML_CreationXML", "LI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionOfElementsLINQ", "SelectionOfElementsLINQ\SelectionOfElementsLINQ.csproj", "{8F6C5173-D353-4CA2-A47C-988455C0DD0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDtoXML", "CRUDtoXML\CRUDtoXML.csproj", "{067005DC-ADA1-47E7-9B09-1BC467030313}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8F6C5173-D353-4CA2-A47C-988455C0DD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F6C5173-D353-4CA2-A47C-988455C0DD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F6C5173-D353-4CA2-A47C-988455C0DD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{067005DC-ADA1-47E7-9B09-1BC467030313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067005DC-ADA1-47E7-9B09-1BC467030313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067005DC-ADA1-47E7-9B09-1BC467030313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067005DC-ADA1-47E7-9B09-1BC467030313}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
